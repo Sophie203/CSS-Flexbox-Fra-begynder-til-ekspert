@@ -49,13 +49,18 @@
 
 /* Lektionen starter her. */
 .flex-container {
-
+  display: flex;
+  border: 10px solid #000;
+  height: 100vh;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
 .flex-item {
-
+  width: 33.333333%;
 }
 
 .box5 {
- 
+  font-size: 190px;
 }
